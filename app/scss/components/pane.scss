@@ -1,0 +1,18 @@
+@use '../util' as *;
+
+.left-pane {
+    max-width: rem(500);
+    border-right: rem(1) solid var(--dark-pink);
+
+    &__about {
+        margin-top: rem(200);
+    }
+
+    &__footer {
+        border-top: rem(1) solid var(--dark-pink);
+    }
+}
+
+.right-pane {
+    width: 100%;
+}

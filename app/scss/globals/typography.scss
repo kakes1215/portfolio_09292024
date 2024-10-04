@@ -1,19 +1,33 @@
 @use '../util' as *;
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
+    margin: rem(15);
     margin-bottom: 0;
     line-height: 1.1;
+    letter-spacing: rem(4);
 }
 
 h1 {
-    font-size: rem(24);
-    margin-bottom: rem(3);
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: var(--faded-pink);
+    max-width: fit-content;
 
-    @include breakpoint(large){
+    @include breakpoint(large) {
         font-size: rem(28);
     }
 }
 
-a, a:visited, a:active {
+p {
+    margin: rem(25);
+    font-size: rem(14);
+}
+
+a,
+a:visited,
+a:active {
     text-decoration: none;
 }
