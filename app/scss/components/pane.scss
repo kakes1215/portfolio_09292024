@@ -1,18 +1,41 @@
 @use '../util' as *;
 
-.left-pane {
-    max-width: rem(500);
-    border-right: rem(1) solid var(--dark-pink);
+.title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12vh;
+    gap: rem(48);
+    overflow: hidden;
+    max-width: 45%;
 
-    &__about {
-        margin-top: rem(200);
+    &__header {
+        .location {
+            display: flex;
+            align-items: center;
+            margin: 10px
+        }
     }
 
-    &__footer {
-        border-top: rem(1) solid var(--dark-pink);
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 15vh;
+    }
+
+
+}
+
+.footer {
+    &__social {
+        height: 24px;
+
+        &--github,
+        &--linkedin {
+            filter: invert(100%) sepia(3%) saturate(12%) hue-rotate(103deg) brightness(105%) contrast(105%);
+        }
     }
 }
 
-.right-pane {
-    width: 100%;
-}
+
+.right-pane {}
