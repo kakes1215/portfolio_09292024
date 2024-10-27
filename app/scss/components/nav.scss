@@ -1,6 +1,24 @@
+@use '../util' as *;
+
 .nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 15vh;
+    &__links {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 15vh;
+        padding: 0;
+
+    }
+}
+
+.link {
+
+    &--active {
+        color: var(--text-color);
+    }
+
+    &--inactive {
+        color: var(--inactive-text-color);
+    }
 }
