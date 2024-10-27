@@ -1,12 +1,17 @@
 @use '../util' as *;
 
-.left-pane {
-    display: flex;
-    flex-direction: column;
-    margin-top: 12vh;
-    gap: rem(48);
-    overflow: hidden;
-    max-width: 45%;
-}
+.section {
+    &__pane {
+        display: flex;
+        flex-direction: column;
+        margin-top: 12vh;
+        gap: rem(48);
 
-.right-pane {}
+        &--left {
+            overflow: hidden;
+            max-width: 45%;
+        }
+
+        &--right {}
+    }
+}
