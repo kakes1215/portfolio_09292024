@@ -1,0 +1,10 @@
+.footer {
+    &__social {
+        height: 24px;
+
+        &--github,
+        &--linkedin {
+            filter: invert(100%) sepia(3%) saturate(12%) hue-rotate(103deg) brightness(105%) contrast(105%);
+        }
+    }
+}

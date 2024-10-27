@@ -1,0 +1,9 @@
+@use '../util' as *;
+
+.title {
+    &__location {
+        display: flex;
+        align-items: center;
+        margin: 15px;
+    }
+}

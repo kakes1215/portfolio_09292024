@@ -3,9 +3,8 @@
 h1,
 h2,
 h3 {
-    margin: rem(15);
+    margin: rem(20);
     margin-bottom: 0;
-    // line-height: 1.1;
 }
 
 h1 {
@@ -17,19 +16,20 @@ h1 {
     }
 }
 
+h2 {
     font-size: rem(20);
     font-weight: 500;
     margin-top: rem(5);
 }
 
 p {
-    margin: rem(15);
+    margin: rem(20);
     font-size: rem(14);
 }
 
 a,
 a:visited,
 a:active {
-    margin: rem(15);
+    margin-left: rem(20);
     text-decoration: none;
 }
