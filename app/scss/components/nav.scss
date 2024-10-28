@@ -1,18 +1,33 @@
 @use '../util' as *;
 
 .nav {
+    height: rem(400);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     &__links {
-        list-style-type: none;
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        height: 15vh;
+        list-style-type: none;
         padding: 0;
 
+        &--section {
+            flex-direction: column;
+            justify-content: space-around;
+            height: 15vh;
+        }
+
+        &--social {
+            flex-direction: row;
+        }
     }
 }
 
 .link {
+    &:hover {
+        color: var(--text-color);
+        filter: var(--accent-green);
+    }
 
     &--active {
         color: var(--text-color);
@@ -20,5 +35,18 @@
 
     &--inactive {
         color: var(--inactive-text-color);
+    }
+
+    &__social {
+        height: 24px;
+
+        &--github,
+        &--linkedin {
+            filter: invert(100%) sepia(3%) saturate(12%) hue-rotate(103deg) brightness(105%) contrast(105%);
+
+            &:hover {
+                filter: invert(84%) sepia(28%) saturate(585%) hue-rotate(38deg) brightness(90%) contrast(85%);
+            }
+        }
     }
 }
