@@ -2,16 +2,16 @@
 
 .section {
     &__pane {
-        display: flex;
-        flex-direction: column;
-        margin-top: 12vh;
-        gap: rem(48);
+        padding-top: 25%;
 
         &--left {
-            overflow: hidden;
-            max-width: 45%;
+            min-width: rem(350);
+            position: sticky;
+            top: 20px;
         }
 
-        &--right {}
+        &--right {
+            min-width: rem(805);
+        }
     }
 }
