@@ -23,6 +23,7 @@
     "autoprefixer": "^10.4.20",
     "browser-sync": "^3.0.2",
     "cssnano": "^7.0.6",
+    "grommet-icons": "^4.12.1",
     "gulp": "^5.0.0",
     "gulp-babel": "^8.0.0",
     "gulp-postcss": "^10.0.0",

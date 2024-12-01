@@ -24,12 +24,26 @@ h2 {
 
 p {
     margin: rem(20);
-    font-size: rem(14);
+    font-size: rem(16);
+    font-weight: 500;
 }
 
 a,
 a:visited,
 a:active {
+    font-size: rem(12);
+    text-transform: uppercase;
     margin-left: rem(20);
     text-decoration: none;
+}
+
+span {
+    font-size: rem(12);
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: rem(20);
 }

@@ -1,0 +1,26 @@
+@use '../util' as *;
+
+.icon-menu {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px;
+    gap: 45px;
+    margin-left: 1.25rem;
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: rem(10);
+    }
+}
+
+.item {
+    &__img {
+        filter: invert(67%) sepia(80%) saturate(300%) hue-rotate(196deg) brightness(102%) contrast(97%);
+        transition: filter 400ms;
+    }
+
+    &__img:hover {
+        filter: none;
+    }
+}
