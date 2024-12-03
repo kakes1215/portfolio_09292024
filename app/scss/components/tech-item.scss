@@ -1,0 +1,40 @@
+@use '../util' as *;
+
+.tech {
+    &__category {
+        padding: rem(10) 0;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(5, min-content);
+        gap: rem(45);
+        margin-left: rem(20);
+    }
+
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: rem(12);
+
+    &__imagebg {
+        height: rem(48);
+        width: rem(48);
+        background-color: var(--text-color);
+        border-radius: rem(30);
+    }
+}
+
+.imagebg {
+    &__image {
+        filter: invert(67%) sepia(80%) saturate(300%) hue-rotate(196deg) brightness(102%) contrast(97%);
+        transition: filter 200ms;
+
+        &:hover {
+            filter: none;
+        }
+    }
+}

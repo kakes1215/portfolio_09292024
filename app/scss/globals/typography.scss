@@ -23,8 +23,8 @@ h2 {
 }
 
 h3 {
-    font-size: rem(16);
-    font-weight: 500;
+    font-size: rem(14);
+    font-weight: 600;
     text-transform: uppercase;
 }
 
@@ -45,7 +45,10 @@ a:active {
 
 span {
     font-size: rem(12);
+    font-weight: 300;
     text-transform: uppercase;
+
+    // padding: 10px 0;
 }
 
 ul {

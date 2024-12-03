@@ -50,7 +50,7 @@
   </section>
   <section class="section section__pane section__pane--right">
     <div class="about">
-      <div class="about__text">
+      <div class="about__intro">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a mi nec diam commodo aliquam sed nec sem.
           Nulla nec
@@ -59,71 +59,136 @@
           Aliquam vitae lacinia nibh, euismod facilisis tellus. Suspendisse non magna
         </p>
       </div>
-      <div class="about__icons">
-        <h3>Languages & Frameworks</h3>
-        <div class="icon-menu">
-          <div class="icon-menu__item item">
-            <img class="item__img" src="./images/angular.svg" />
-            <span>Angular</span>
+      <!--Frontend Tech-->
+      <div class="about__tech tech">
+        <h3 class="tech__category">Frontend</h3>
+        <div class="tech__list">
+          <div class="item">
+            <div class="item__imagebg imagebg">
+              <img class="imagebg__image" src="./images/angular.svg" />
+            </div>
+            <span class="item__description">HTML</span>
           </div>
-          <div class="icon-menu__item item">
-            <img class="item__img" src="./images/csharp.svg" />
-            <span>C#</span>
+          <div class="item">
+            <div class="item__imagebg imagebg">
+              <img class="imagebg__image" src="./images/angular.svg" />
+            </div>
+            <span class="item__description">CSS</span>
           </div>
-          <div class="icon-menu__item item">
-            <img class="item__img" src="./images/netcore.svg" />
-            <span>.Net Core</span>
+          <div class="item">
+            <div class="item__imagebg imagebg">
+              <img class="imagebg__image" src="./images/sass.svg" />
+            </div>
+            <span class="item__description">SASS</span>
           </div>
-          <div class="icon-menu__item item">
-            <img class="item__img" src="./images/typescript.svg" />
-            <span>Typescript</span>
+          <div class="item">
+            <div class="item__imagebg imagebg">
+              <img class="imagebg__image" src="./images/angular.svg" />
+            </div>
+            <span class="item__description">JS</span>
           </div>
-          <div class="icon-menu__item item">
-            <!-- <img class="item__img" src="./images/typescript.svg" /> -->
-            <span>Javascript</span>
-          </div>
-        </div>
-        <h3>Testing</h3>
-        <div class="icon-menu">
-          <div class="icon-menu__item item">
-            <img class="item__img" src="./images/jasmine.svg" />
-            <span>Jasmine</span>
-          </div>
-          <div class="icon-menu__item item">
-            <img class="item__img" src="./images/jest.svg" />
-            <span>Jest</span>
-          </div>
-        </div>
-        <h3>Frontend</h3>
-        <div class="icon-menu">
-          <div class="icon-menu__item item">
-            <img class="item__img" src="./images/materialUI.svg" />
-            <span>Material</span>
-          </div>
-          <div class="icon-menu__item item">
-            <img class="item__img" src="./images/sass.svg" />
-            <span>Sass</span>
-          </div>
-        </div>
-        <h3>Backend</h3>
-        <div class="icon-menu">
-          <div class="icon-menu__item item">
-            <img class="item__img" src="./images/mongoDB.svg" />
-            <span>Mongo DB</span>
-          </div>
-        </div>
-        <h3>Other Tools and Technologies</h3>
-        <div class="icon-menu">
-          <div class="icon-menu__item item">
-            <img class="item__img" src="./images/redux.svg" />
-            <span>Redux</span>
-          </div>
-          <div class="icon-menu__item item">
-            <img class="item__img" src="./images/azure.svg" />
-            <span>Azure</span>
+          <div class="item">
+            <div class="item__imagebg imagebg">
+              <img class="imagebg__image" src="./images/materialUI.svg" />
+            </div>
+            <span class="item__description">Material</span>
           </div>
         </div>
       </div>
+
+      <!--Backend Tech-->
+      <div class="about__tech tech">
+        <h3 class="tech__category">Backend</h3>
+        <div class="tech__list">
+          <div class="item">
+            <div class="item__imagebg imagebg">
+              <img class="imagebg__image" src="./images/mongoDB.svg" />
+            </div>
+            <span class="item__description">Mongo</span>
+          </div>
+          <div class="item">
+            <div class="item__imagebg imagebg">
+              <img class="imagebg__image" src="./images/azure.svg" />
+            </div>
+            <span class="item__description">Azure</span>
+          </div>
+          <div class="item">
+            <div class="item__imagebg imagebg">
+              <img class="imagebg__image" src="./images/sass.svg" />
+            </div>
+            <span class="item__description">GraphQL</span>
+          </div>
+          <div class="item">
+            <div class="item__imagebg imagebg">
+              <img class="imagebg__image" src="./images/angular.svg" />
+            </div>
+            <span class="item__description">MySQL</span>
+          </div>
+          <div class="item">
+            <div class="item__imagebg imagebg">
+              <img class="imagebg__image" src="./images/netcore.svg" />
+            </div>
+            <span class="item__description">.Net Core</span>
+          </div>
+        </div>
+      </div>
+
+      <!--Framework and Languages Tech-->
+      <div class="about__tech tech">
+        <h3 class="tech__category">Framework & Languages</h3>
+        <div class="tech__list">
+          <div class="item">
+            <div class="item__imagebg imagebg">
+              <img class="imagebg__image" src="./images/angular.svg" />
+            </div>
+            <span class="item__description">Angular</span>
+          </div>
+          <div class="item">
+            <div class="item__imagebg imagebg">
+              <img class="imagebg__image" src="./images/csharp.svg" />
+            </div>
+            <span class="item__description">C#</span>
+          </div>
+          <div class="item">
+            <div class="item__imagebg imagebg">
+              <img class="imagebg__image" src="./images/typescript.svg" />
+            </div>
+            <span class="item__description">Typescript</span>
+          </div>
+          <div class="item">
+            <div class="item__imagebg imagebg">
+              <img class="imagebg__image" src="./images/react.svg" />
+            </div>
+            <span class="item__description">React</span>
+          </div>
+        </div>
+      </div>
+
+      <!--Testing and Tools Tech-->
+      <div class="about__tech tech">
+        <h3 class="tech__category">Testing & Tools</h3>
+        <div class="tech__list">
+          <div class="item">
+            <div class="item__imagebg imagebg">
+              <img class="imagebg__image" src="./images/jest.svg" />
+            </div>
+            <span class="item__description">Jest</span>
+          </div>
+          <div class="item">
+            <div class="item__imagebg imagebg">
+              <img class="imagebg__image" src="./images/jasmine.svg" />
+            </div>
+            <span class="item__description">Jasmine</span>
+          </div>
+          <div class="item">
+            <div class="item__imagebg imagebg">
+              <img class="imagebg__image" src="./images/redux.svg" />
+            </div>
+            <span class="item__description">Redux</span>
+          </div>
+        </div>
+      </div>
+
     </div>
     </div>
   </section>
