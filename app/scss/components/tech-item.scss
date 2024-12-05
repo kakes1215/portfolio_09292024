@@ -32,9 +32,19 @@
     &__image {
         filter: invert(67%) sepia(80%) saturate(300%) hue-rotate(196deg) brightness(102%) contrast(97%);
         transition: filter 200ms;
+        height: rem(40);
+        width: rem(40);
+        margin: rem(4);
 
         &:hover {
             filter: none;
+        }
+
+        &--link {
+            height: rem(15);
+            width: rem(15);
+            margin: 0 0 1.25rem;
+            // rotate: -45deg;
         }
     }
 }

@@ -4,7 +4,7 @@ h1,
 h2,
 h3 {
     margin: rem(20);
-    margin-bottom: 0;
+    margin-top: 0;
 }
 
 h1 {
@@ -29,7 +29,7 @@ h3 {
 }
 
 p {
-    margin: rem(20);
+    margin: 0 rem(20);
     font-size: rem(14);
     font-weight: 500;
 }
@@ -44,11 +44,9 @@ a:active {
 }
 
 span {
-    font-size: rem(12);
-    font-weight: 300;
+    font-size: rem(14);
+    font-weight: 400;
     text-transform: uppercase;
-
-    // padding: 10px 0;
 }
 
 ul {

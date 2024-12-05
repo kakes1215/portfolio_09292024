@@ -1,0 +1,27 @@
+@use '../util' as *;
+
+.work {
+    display: flex;
+    flex-direction: row;
+    margin-top: rem(45);
+
+    &__date {
+        color: var(--accent-purple);
+        flex-basis: rem(485);
+    }
+}
+
+.description {
+    margin: 0;
+}
+
+.techlist {
+    margin: rem(15);
+
+    &__tech {
+        padding: rem(8);
+        margin: rem(5);
+        border-radius: rem(30);
+        background-color: var(--accent-purple);
+    }
+}
