@@ -1,19 +1,19 @@
 @use '../util' as *;
 
 .section {
-    flex-basis: 100%;
+    margin: rem(150) 0;
 
     &__pane {
         &--left {
-            position: sticky;
-            top: 20px;
-            flex-basis: 65vw;
+            position: fixed;
         }
 
-        &--right {}
+        &--right {
+            margin-left: 50%;
+        }
     }
 }
 
 .subsection {
-    margin: rem(200) 0;
+    margin-bottom: rem(250);
 }
